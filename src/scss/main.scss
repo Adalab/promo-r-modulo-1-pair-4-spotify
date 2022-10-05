@@ -1,12 +1,16 @@
 /* reset styles */
+// @import 'core/variables';
+// @import 'core/reset';
+// @import 'components/code';
+// @import 'components/links';
+// @import 'layout/page';
+// @import 'layout/header';
+// @import 'layout/footer';
+// @import 'pages/index';
+ @import 'core/reset';
+ @import 'layout/header';
+ @import 'layout/footer';
 
-* {
-  box-sizing: border-box;
-  font-family: Circular, Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
 
 a {
   color: white;
@@ -15,49 +19,6 @@ a {
 
 body {
   margin: 0;
-}
-
-/* header */
-
-.header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: black;
-}
-.hero-title {
-  margin-top: 50px;
-}
-.logo {
-  height: 30px;
-}
-.nav{
-  display: none;
-}
-.list {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-}
-
-.link {
-  padding: 10px;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.link:hover {
-  color: #4bb84a;
-}
-
-.link-signup:before {
-  padding-left: 4px;
-  content: '|';
-  color: white;
 }
 
 /* main */
@@ -137,35 +98,6 @@ body {
 .benefit-title {
   font-size: 1.25rem;
   line-height: 25px;
-}
-
-/* footer */
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding: 15px;
-  background-color: black;
-}
-
-.footer,
-.footer * {
-  font-size: 10px;
-  color: #999;
-}
-
-.footer-menu-links:hover {
-  color: white;
-}
-
-.footer-menu-items {
-  display: inline-block;
-}
-
-.footer-menu-links {
-  display: inline-block;
-  padding: 7px;
 }
 
 /* copy */
