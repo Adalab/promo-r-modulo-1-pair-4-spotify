@@ -191,7 +191,7 @@ body {
 @media all and (min-width: 768px) {
 
   .hero {
-    background-image: url(../images/premium-dancer.png);
+    background-image: url(../images/premium_dancer.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
