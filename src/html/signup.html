@@ -27,10 +27,37 @@
        <label for="pasword">Crea una contraseña</label>
        <input type="password" name="pasword" id="pasword" placeholder=" Crea una contraseña" required>
        
-       <label for="name">Crea una contraseña</label>
-       <input type="text" name="pasword" id="pasword" placeholder=" Crea una contraseña" required>
+       <label for="name">¿Cómo quieres que te llamemos?</label>
+       <input type="text" name="name" id="name" placeholder="Pon un nombre de perfil." required>
+       <p>Esto aparece en tu perfil</p>
 
-       
+       <label for="date"> ¿Cuál es tu fecha de nacimiento</label>
+        <input type="number" name="date" id="date" required placeholder="DD">
+        <select name="month" id="month" required placeholder="Mes"> 
+            <option>Enero</option>
+            <option>Febrero</option>
+            <option>Marzo</option>
+            <option>Abril</option>
+            <option>Mayo</option>
+            <option>Junio</option>
+            <option>Julio</option>
+            <option>Agosto</option>
+            <option>Septiembre</option>
+            <option>Octubre</option>
+            <option>Noviembre</option>
+            <option>Diciembre</option>     
+        </select>
+        <input type="number" name="date" id="date" required placeholder="AAAA">
+        <div>
+            <p>¿Cuál es tu género?</p>
+            <label for="men">Hombre</label>
+            <input type="radio" name="men" id="men" required>
+             <label for="woman">Mujer</label>
+            <input type="radio" name="woman" id="woman" required>
+            <label for="nobinary">No binario</label>
+            <input type="radio" name="nobinary" id="nobinary" required>
+        </div>
+
     </form>
  
     
